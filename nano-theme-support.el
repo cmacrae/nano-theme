@@ -1461,6 +1461,11 @@ background color that is barely perceptible."
 
     '(magit-tag                              ((t (:inherit nano-strong))))
 
+    ;; --- NeoTree ----------------------------------------------------
+
+    '(neo-dir-link-face                     ((t (:inherit nano-salient))))
+    '(neo-file-link-face                      ((t (:inherit nano-faded))))
+
     ;; --- Transient ------------------------------------------------------
     ;; Set only faces that influence Magit.  See:
     ;; <https://github.com/rougier/nano-theme/issues/43>
